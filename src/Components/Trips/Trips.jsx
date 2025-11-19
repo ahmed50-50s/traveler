@@ -201,7 +201,7 @@ export default function Trips() {
         </p>
       </div>
 
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center mb-6 mx-10 flex-col md:flex-row gap-4">
         <TripSearch setSearch={setSearch} />
 
         <PriceFilter maxPrice={maxPrice} setMaxPrice={setMaxPrice} />
