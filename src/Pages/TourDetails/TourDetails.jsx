@@ -58,7 +58,7 @@ export default function TourDetails() {
   }, []);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8">
+    <div className="max-w-7xl mx-auto px-4 py-8 ">
       <button
         className="flex items-center gap-2 px-4 py-2 rounded-lg font-semibold transition-colors duration-300 mb-6"
         style={{

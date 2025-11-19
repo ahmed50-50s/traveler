@@ -6,7 +6,9 @@ export default function Layout() {
   return (
     <>
       <NavBar />
-      <Outlet />
+      <div className="my-17">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );
